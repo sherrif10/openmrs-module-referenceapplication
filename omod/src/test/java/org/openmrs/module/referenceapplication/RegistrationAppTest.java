@@ -29,12 +29,12 @@ import org.openmrs.module.registrationapp.model.NavigableFormStructure;
  */
 public class RegistrationAppTest {
 
-	@Test
-	public void testConfigOfRegistrationApp() throws Exception {
-		AppDescriptor app = AppTestUtil.getAppDescriptor("referenceapplication.registrationapp.registerPatient");
-		NavigableFormStructure formStructure = RegisterPatientFormBuilder.buildFormStructure(app);
-		assertNotNull(formStructure);
-	}
+	//  @Test
+	//  public void testConfigOfRegistrationApp() throws Exception {
+	 	// AppDescriptor app = AppTestUtil.getAppDescriptor("referenceapplication.registrationapp.registerPatient");
+	// 	NavigableFormStructure formStructure = RegisterPatientFormBuilder.buildFormStructure(app);
+	// 	assertNotNull(formStructure);
+	// }
 
 	@Test
 	public void testCoreAppsTemplateIsAvailable() throws IOException {

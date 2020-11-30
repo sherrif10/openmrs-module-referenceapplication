@@ -1,7 +1,7 @@
 <fieldset>
     <legend id="deceasedLabel">${config.label}</legend>
 
-    <h3>${ui.message("aijar.registrationapp.deceased.question")}</h3>
+    <h3>${ui.message("referenceapplication.registrationapp.deceased.question")}</h3>
 
     <p>
         <input id="checkbox-deceased" type="checkbox"/>
